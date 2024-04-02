@@ -1,5 +1,4 @@
-# Installation-guide-of-Sublime-Text 4
-Installation guide of Sublime Text 4. Also, i will introduce a way to crack it for anyone who wants. 
+# Installation guide of Sublime Text 4
 
 ## Install Sublime Text 4
 * Download Sublime Text 4 here: https://www.sublimetext.com/3 . Choose an approriate version with your computer's system
@@ -32,3 +31,6 @@ Installation guide of Sublime Text 4. Also, i will introduce a way to crack it f
 * Step 1: Open Command Prompt, WindowsPowerShell or Cygwin64 (to install Cygwin64, follow this guy: https://www.youtube.com/watch?v=nidNLiNUrQU)
 * Step 2: Use the comman "g++ -o yourOutputFileName yourProgramName.cpp" (E.g.: g++ -o helloworld helloworld.cpp)
 * Step 3: Execute it with "./helloworld" 
+
+## Want to crack Sublime Text 4
+* Follow this repo: https://gist.github.com/skoqaq/3f3e8f28e23c881143cef9cf49d821ff#gistcomment-4824279
