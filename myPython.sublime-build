@@ -1,0 +1,5 @@
+{
+ "target":"run_existing_window_command",
+ "id":"fuckPython",
+ "file":"config/Python/Main.sublime-menu"
+}
