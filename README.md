@@ -5,6 +5,7 @@
 
 ## Setup GCC/G++ environment for Windows
 * Step 1: Download MinGW W64 [here](https://sourceforge.net/projects/mingw/)
+  
 * Step 2: Run mingw-get-setup.exe as administrator and Click on [Install]
 * Step 3: Mark all the packages for installation
 * Step 4: Click on the Apply Changes option under the Installation tab.
@@ -38,8 +39,10 @@
 
 ## Run and Compile a programm by Command Prompt.
 * Step 1: Open Command Prompt, WindowsPowerShell.
+  
 * Step 2: Use the comman "g++ -o yourProgramName.cpp yourOutputFileName.exe" (E.g.: g++ -o test.cpp test.exe)
 * Step 3: Execute it with "test.exe"
+  
   ![image](https://github.com/loveCiForever/Setting-up-Sublime-Text-for-Competitive-Progaming-C-/assets/107240800/aace8fd1-7af5-43ed-ab3f-bf79f85d4805)
 
 ## Set up Sublime Text for Competitve Programming
@@ -48,6 +51,7 @@
 * Step 2: Open Sublime Text.
 * Step 3: In the View Tab, Click on [Layout] -> [Columns: 3] or [Alt + Shift + 3]
 * Step 4: In the View Tab, Click on [Group] -> [Max groups: 2]. After those step, we will have this layout.
+  
   ![image](https://github.com/loveCiForever/Setting-up-Sublime-Text-for-Competitive-Progaming-C-/assets/107240800/dd55a742-2e2a-4e85-b421-d9a21a5f08ed)
 * Step 5: Save this build file system as "CPP_CP.sublime-build"
   
