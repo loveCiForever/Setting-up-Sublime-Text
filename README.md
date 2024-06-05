@@ -8,7 +8,7 @@
   
 * Step 2: Run mingw-get-setup.exe as administrator and Click on [Install]
 * Step 3: Mark all the packages for installation
-* Step 4: Click on the Apply Changes option under the Installation tab.
+* Step 4: Click on the [Apply Changes] option under the Installation tab.
 
 ## Add new Build System file for C++ in SubLime Text 4
 * Step 1: Open Sublime Text, look at the menu bar (on the top) -> [Tools]  -> [Build system] -> [New Build system]
@@ -34,12 +34,11 @@
 	    }
         
 * Step 3: Write your first program and save it with extension ".cpp" (E.g.: Hello_World.cpp)
-* Step 4: In the [Tool] Tab, Click on [Build System] -> [myC]
+* Step 4: In the Tool Tab, Click on [Build System] -> [myC]
 * Step 5: In the first time, Press [Ctrl] + [Shift] + [B] at the same time. Next time just press [Ctrl] + [B] to compile and run your program
 
 ## Run and Compile a programm by Command Prompt.
 * Step 1: Open Command Prompt, WindowsPowerShell.
-  
 * Step 2: Use the comman "g++ -o yourProgramName.cpp yourOutputFileName.exe" (E.g.: g++ -o test.cpp test.exe)
 * Step 3: Execute it with "test.exe"
   
@@ -47,12 +46,15 @@
 
 ## Set up Sublime Text for Competitve Programming
 * Step 1: Create 3 file: sourceCode.cpp, inputf.in, outputf.out
+  
   ![image](https://github.com/loveCiForever/Setting-up-Sublime-Text-for-Competitive-Progaming-C-/assets/107240800/80d1d66c-1c20-4b36-8993-73200a5c14de)
+  
 * Step 2: Open Sublime Text.
-* Step 3: In the View Tab, Click on [Layout] -> [Columns: 3] or [Alt + Shift + 3]
+* Step 3: In the View Tab, Click on [Layout] -> [Columns: 3] or [Alt] + [Shift] + [3]
 * Step 4: In the View Tab, Click on [Group] -> [Max groups: 2]. After those step, we will have this layout.
   
   ![image](https://github.com/loveCiForever/Setting-up-Sublime-Text-for-Competitive-Progaming-C-/assets/107240800/dd55a742-2e2a-4e85-b421-d9a21a5f08ed)
+  
 * Step 5: Save this build file system as "CPP_CP.sublime-build"
   
 		{
@@ -63,8 +65,9 @@
 			    "working_dir":"$file_path",
 			    "selector":"source.cpp"
 		}
-* Step 6: In the [Tool] Tab, Click on [Build System] -> [CPP_CP]
+  
+* Step 6: In the Tool Tab, Click on [Build System] -> [CPP_CP]
 * Step 7: In the first time, Press [Ctrl] + [Shift] + [B] at the same time. Next time just press [Ctrl] + [B] to compile and run your program
     
 ## How to activate Sublime Text 4
-* Follow this repo: https://gist.github.com/skoqaq/3f3e8f28e23c881143cef9cf49d821ff#gistcomment-4824279
+* Follow this repository: https://gist.github.com/skoqaq/3f3e8f28e23c881143cef9cf49d821ff#gistcomment-4824279
