@@ -5,10 +5,9 @@
 
 ## Setup GCC/G++ environment for Windows
 * Step 1: Download MinGW W64 [here](https://sourceforge.net/projects/mingw/)
-  
 * Step 2: Run mingw-get-setup.exe as administrator and Click on [Install]
-* Step 3: Mark all the packages for installation
-* Step 4: Click on the [Apply Changes] option under the Installation tab.
+* Step 3: Left-Click on all of the packages and mark on it for installation
+* Step 4: Click on the [Apply Changes] option under the Installation tab
 
 ## Add new Build System file for C++ in SubLime Text 4
 * Step 1: Open Sublime Text, look at the menu bar (on the top) -> [Tools]  -> [Build system] -> [New Build system]
@@ -31,8 +30,7 @@
 				& echo. &echo ------------------------------ & echo Quang Huy Handsome had successfully compiled from LTP's compiler & pause\""
 	            }
 	        ]
-	    }
-        
+	    }  
 * Step 3: Write your first program and save it with extension ".cpp" (E.g.: Hello_World.cpp)
 * Step 4: In the Tool Tab, Click on [Build System] -> [myC]
 * Step 5: In the first time, Press [Ctrl] + [Shift] + [B] at the same time. Next time just press [Ctrl] + [B] to compile and run your program
@@ -44,7 +42,8 @@
   
   ![image](https://github.com/loveCiForever/Setting-up-Sublime-Text-for-Competitive-Progaming-C-/assets/107240800/aace8fd1-7af5-43ed-ab3f-bf79f85d4805)
 
-## Set up Sublime Text for Competitve Programming
+## Set up Sublime Text for Competitve Programming 
+### With this way, we do not need to enter the input mutilple times
 * Step 1: Create 3 file: sourceCode.cpp, inputf.in, outputf.out
   
   ![image](https://github.com/loveCiForever/Setting-up-Sublime-Text-for-Competitive-Progaming-C-/assets/107240800/80d1d66c-1c20-4b36-8993-73200a5c14de)
@@ -55,7 +54,7 @@
   
   ![image](https://github.com/loveCiForever/Setting-up-Sublime-Text-for-Competitive-Progaming-C-/assets/107240800/dd55a742-2e2a-4e85-b421-d9a21a5f08ed)
   
-* Step 5: Save this build file system as "CPP_CP.sublime-build"
+* Step 5: Create a new Build System File and save it as "CPP_CP.sublime-build"
   
 		{
 			    "cmd": ["g++.exe", "-std=c++17", "${file}",
